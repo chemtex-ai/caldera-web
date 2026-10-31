@@ -60,7 +60,8 @@ BODY=f'''<section class="chero chero-tight"><div class="wrap maxw">
 html=bw.clean(bw.standalone_w("Where to Find Caldera — Bars & Stores in Kolkata",
   "Find Caldera on tap and by the pint across Kolkata. Search bars, clubs and stores serving Caldera, filtered by area.",
   BODY,"find","","find.html"))
-html=html.replace('</body>','<script src="assets/outlets.js"></script>\n</body>')
+_v = bw._v(pathlib.Path(__file__).resolve().parent/"outlets.js")
+html=html.replace('</body>', f'<script src="assets/outlets.js?v={_v}"></script>\n</body>')
 (bw.WHITE/"find.html").write_text(html,encoding="utf-8")
 (bw.ASSETS/"outlets.js").write_text((pathlib.Path(__file__).resolve().parent/"outlets.js").read_text(encoding="utf-8"),encoding="utf-8")
 print(f"find.html rebuilt — {len(data)} outlets ({ntap} tap / {npint} pint), {len(AREAS)} areas")

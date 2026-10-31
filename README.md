@@ -30,11 +30,13 @@ next regeneration doesn't silently revert it.
 ```bash
 cd src
 export CALDERA_SITE=../_work/site     # scratch tree, git-ignored
-python3 golive.py                     # all pages + 404, robots.txt, sitemap.xml, _redirects
-python3 build_find.py                 # overwrites find.html with the outlet directory
+python3 build_all.py
 ```
 
-Order matters: `golive.py` writes a plain `find.html`; `build_find.py` must run after it.
+**Always use `build_all.py`.** `build_white.py` regenerates every page at import time, so
+running the stage scripts in separate processes lets the last one to import it clobber pages an
+earlier stage had already specialised. `build_all.py` runs them in one process, where the import
+is cached and each stage's output survives.
 
 `outlets_prep.py` turns the internal ERP extract into `data/outlets_public.json`. It needs the source
 workbook, which is **not in this repo** — see Data below.

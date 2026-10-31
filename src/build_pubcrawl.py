@@ -75,7 +75,8 @@ html = bw.clean(bw.standalone_w(
     "The Pub Crawl — Caldera",
     "Register for the Caldera Pub Crawl \u2014 join us as we head to Calcutta's best pubs and engage ourselves in adda. Registration is free. 21+.",
     BODY, "", "", "pubcrawl.html"))
-html = html.replace('</body>', '<script src="assets/pubcrawl.js"></script>\n</body>')
+_v = bw._v(pathlib.Path(__file__).resolve().parent/"pubcrawl.js")
+html = html.replace('</body>', f'<script src="assets/pubcrawl.js?v={_v}"></script>\n</body>')
 (bw.WHITE/"pubcrawl.html").write_text(html, encoding="utf-8")
 import shutil
 shutil.copy(pathlib.Path(__file__).resolve().parent/"pubcrawl_badge.jpg", bw.ASSETS/"pubcrawl_badge.jpg")

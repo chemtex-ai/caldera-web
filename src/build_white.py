@@ -16,6 +16,12 @@ ov   = (HERE/"white_overrides.css").read_text(encoding="utf-8")
 
 SITE_URL = "https://caldera.beer"
 
+import hashlib
+def _v(path):
+    return hashlib.sha1(pathlib.Path(path).read_bytes()).hexdigest()[:8]
+CSS_V = _v(ASSETS/"caldera-white.css")
+JS_V  = _v(ASSETS/"caldera-white.js")
+
 HEADBITS_W = '''<title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="icon" href="assets/favicon.ico" sizes="any">
@@ -329,6 +335,8 @@ def clean(html):
     html = html.replace('Ask Where It\'s on Tap', 'Ask Where It\'s on&nbsp;Tap')
     html = html.replace('enjoyed over good conversation.', 'enjoyed over good&nbsp;conversation.')
     html = prettify_links(html)
+    html = html.replace('assets/caldera-white.css', f'assets/caldera-white.css?v={CSS_V}')
+    html = html.replace('assets/caldera-white.js',  f'assets/caldera-white.js?v={JS_V}')
     return html
 
 def prettify_links(html):
