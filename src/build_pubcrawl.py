@@ -58,7 +58,6 @@ BODY = f'''<section class="pc-hero">
                autocomplete="off" autocapitalize="none" spellcheck="false"
                placeholder="yourhandle">
       </div>
-      <small>So we can check the follow. Letters, numbers, full stops and underscores.</small>
     </div>
 
     <label class="pc-check">
