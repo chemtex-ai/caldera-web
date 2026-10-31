@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import pathlib, shutil, build
+import pathlib, re, shutil, build
 
 SITE   = build.SITE
 WHITE  = SITE/"white"
@@ -97,8 +97,15 @@ FOOTER_W = (_F
     .replace('<a href="index.html#beers">Our Beers</a>','<a href="index.html#beers">Caldera On Pint</a><a href="ontap.html">Caldera On Tap</a>'))
 SCRIPT_W = '<script src="assets/caldera-white.js"></script>'
 
+PAGE_SLUGS = ["index","ontap","yellow","blue","strong","about","faq","find","blog","contact","privacy"]
+
+def pretty(slug):
+    """find.html -> /find ; index.html -> /"""
+    stem = slug[:-5] if slug.endswith(".html") else slug
+    return "/" if stem == "index" else "/" + stem
+
 def canon(slug):
-    return SITE_URL + ("/" if slug=="index.html" else "/"+slug)
+    return SITE_URL + pretty(slug)
 
 def standalone_w(title, desc, body, active, bodyclass="", slug="index.html"):
     bc = f' class="{bodyclass}"' if bodyclass else ""
@@ -321,7 +328,16 @@ def clean(html):
     html = html.replace('Ask Where to Get a Pint', 'Ask Where to Get a&nbsp;Pint')
     html = html.replace('Ask Where It\'s on Tap', 'Ask Where It\'s on&nbsp;Tap')
     html = html.replace('enjoyed over good conversation.', 'enjoyed over good&nbsp;conversation.')
+    html = prettify_links(html)
     return html
+
+def prettify_links(html):
+    """index.html#beers -> /#beers ; find.html -> /find"""
+    def sub(m):
+        stem, frag = m.group(1), m.group(2) or ''
+        if stem not in PAGE_SLUGS: return m.group(0)
+        return 'href="%s%s"' % (pretty(stem), frag)
+    return re.sub(r'href="/?([A-Za-z0-9_-]+)\.html(#[A-Za-z0-9_-]+)?"', sub, html)
 
 for fn,(t,d,b,a,bc) in pages.items():
     (WHITE/fn).write_text(clean(standalone_w(t,d,b,a,bc,fn)), encoding="utf-8")

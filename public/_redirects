@@ -14,18 +14,19 @@ https://caldera-beer.netlify.app/*  https://caldera.beer/:splat   301!
 /apply/*           /contact.html     301!
 /apply             /contact.html     301!
 /home              /                 301!
+/index.html        /                 301!
 
-# ---- clean URLs ----
-/ontap            /ontap.html       301!
-/yellow           /yellow.html      301!
-/blue             /blue.html        301!
-/strong           /strong.html      301!
-/about            /about.html       301!
-/faq              /faq.html         301!
-/find             /find.html        301!
-/blog             /blog.html        301!
-/contact          /contact.html     301!
-/privacy          /privacy.html     301!
+# ---- drop the .html extension ----
+/ontap.html       /ontap            301!
+/yellow.html      /yellow           301!
+/blue.html        /blue             301!
+/strong.html      /strong           301!
+/about.html       /about            301!
+/faq.html         /faq              301!
+/find.html        /find             301!
+/blog.html        /blog             301!
+/contact.html     /contact          301!
+/privacy.html     /privacy          301!
 
 # ---- retired WordPress surface: gone, not moved ----
 /wp-admin/*        /404.html         410

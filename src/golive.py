@@ -32,7 +32,7 @@ urls = "\n".join(
   f"Sitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 
 # ---------- _redirects ----------
-clean = "\n".join(f"/{p[:-5]:<16} /{p:<16} 301!" for p in PAGES if p != "index.html")
+strip = "\n".join(f"/{p:<16} /{p[:-5]:<16} 301!" for p in PAGES if p != "index.html")
 (W/"_redirects").write_text(f"""# ---- one canonical host: send the netlify.app copy to the domain ----
 http://caldera-beer.netlify.app/*   https://caldera.beer/:splat   301!
 https://caldera-beer.netlify.app/*  https://caldera.beer/:splat   301!
@@ -49,9 +49,10 @@ https://caldera-beer.netlify.app/*  https://caldera.beer/:splat   301!
 /apply/*           /contact.html     301!
 /apply             /contact.html     301!
 /home              /                 301!
+/index.html        /                 301!
 
-# ---- clean URLs ----
-{clean}
+# ---- drop the .html extension ----
+{strip}
 
 # ---- retired WordPress surface: gone, not moved ----
 /wp-admin/*        /404.html         410

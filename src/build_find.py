@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json, collections, pathlib, build_white as bw
 
-data=json.loads(pathlib.Path('outlets_public.json').read_text(encoding='utf-8'))
+data=json.loads((pathlib.Path(__file__).resolve().parent/'data'/'outlets_public.json').read_text(encoding='utf-8'))
 AREAS=[a for a,_ in collections.Counter(o['area'] for o in data).most_common()]
 ntap=sum(1 for o in data if o['tap']); npint=sum(1 for o in data if o['pint'])
 
@@ -62,5 +62,5 @@ html=bw.clean(bw.standalone_w("Where to Find Caldera — Bars & Stores in Kolkat
   BODY,"find","","find.html"))
 html=html.replace('</body>','<script src="assets/outlets.js"></script>\n</body>')
 (bw.WHITE/"find.html").write_text(html,encoding="utf-8")
-(bw.ASSETS/"outlets.js").write_text(pathlib.Path("outlets.js").read_text(encoding="utf-8"),encoding="utf-8")
+(bw.ASSETS/"outlets.js").write_text((pathlib.Path(__file__).resolve().parent/"outlets.js").read_text(encoding="utf-8"),encoding="utf-8")
 print(f"find.html rebuilt — {len(data)} outlets ({ntap} tap / {npint} pint), {len(AREAS)} areas")
