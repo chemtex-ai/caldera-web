@@ -1,0 +1,28 @@
+# Caldera
+
+> Caldera is a craft beer brand from Kolkata (Calcutta), India, owned by
+> Karnani FnB Specialities LLP. Four styles are produced: Witbier, Blue,
+> Strong and Hefeweizen. Caldera is sold on draught ("on tap") at bars and
+> restaurants, and in 330 ml bottles ("on pint") at licensed stores across
+> Kolkata. Caldera does not sell alcohol online.
+
+## Beers
+- [Caldera Witbier](https://caldera.beer/yellow): Belgian-style wheat beer, citrusy and spicy, under 5% ABV. Bottle only.
+- [Caldera Blue](https://caldera.beer/blue): German-style pilsner, crisp and dry, under 5% ABV. On tap and bottle.
+- [Caldera Strong](https://caldera.beer/strong): strong lager, smooth and roasty, under 8% ABV. On tap and bottle.
+- [Caldera Hefeweizen](https://caldera.beer/ontap): German-style wheat beer, fruity and smooth. On tap only, never bottled.
+
+## Pages
+- [Where to find Caldera](https://caldera.beer/find): searchable list of bars, clubs and stores in Kolkata, filterable by area and by tap or bottle.
+- [On tap](https://caldera.beer/ontap): the styles poured on draught.
+- [About](https://caldera.beer/about): who Caldera is and where it comes from.
+- [FAQ](https://caldera.beer/faq): what craft beer is, how styles differ, how to serve them.
+- [Contact](https://caldera.beer/contact): enquiries, stocking Caldera, serving it at a venue.
+
+## Facts
+- Brand: Caldera. Tagline: Calcutta's Finest Craft.
+- Owner: Karnani FnB Specialities LLP, Haute Street Corporate Park,
+  86A Topsia Road (S), Kolkata 700046, West Bengal, India.
+- Contact: hello@caldera.beer, 1800 123 3415.
+- Caldera is a beer brand, not a visitable brewery or taproom.
+- Legal drinking age applies. Not for sale to persons below 21 years.

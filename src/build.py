@@ -427,7 +427,7 @@ POSTS = [
  ("glasses_trio.jpg","Know Your Beer","Lager vs ale: a quick guide for the curious","Top-fermented or bottom-fermented? Warm or cool? A simple, no-jargon guide to the two great families of beer — and where Caldera's styles sit.","Coming soon"),
 ]
 blog_cards="".join(
-  f'<article class="blog-card rv"><div class="blog-media"><img src="assets/{img}" alt=""><span class="blog-cat">{cat}</span></div><div class="blog-body"><h3>{title}</h3><p>{excerpt}</p><span class="blog-soon">{tag}</span></div></article>'
+  f'<article class="blog-card rv"><div class="blog-media"><img src="assets/{img}" alt="{title}" loading="lazy"><span class="blog-cat">{cat}</span></div><div class="blog-body"><h3>{title}</h3><p>{excerpt}</p><span class="blog-soon">{tag}</span></div></article>'
   for img,cat,title,excerpt,tag in POSTS)
 
 BLOG = f'''<section class="chero"><div class="wrap maxw">
