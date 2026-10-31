@@ -50,6 +50,17 @@ BODY = f'''<section class="pc-hero">
       <small>You must be 21 or older.</small>
     </div>
 
+    <div class="pc-field">
+      <label for="pc-insta">Your Instagram handle</label>
+      <div class="pc-at">
+        <span aria-hidden="true">@</span>
+        <input id="pc-insta" name="instagram" type="text" required maxlength="120"
+               autocomplete="off" autocapitalize="none" spellcheck="false"
+               placeholder="yourhandle">
+      </div>
+      <small>So we can check the follow. Letters, numbers, full stops and underscores.</small>
+    </div>
+
     <label class="pc-check">
       <input type="checkbox" name="follows_instagram" value="yes" required>
       <span>I follow <b>@caldera.craftbeer</b> on Instagram</span>
