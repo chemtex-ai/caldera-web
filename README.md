@@ -5,6 +5,9 @@ Operated by Karnani FnB Specialities LLP.
 
 Hosted on Netlify (project `caldera-beer`). A push to `main` deploys the site.
 
+- Live: <https://caldera.beer>
+- Netlify project: `caldera-beer` &middot; publish directory `public`, no build command
+
 ## Layout
 
 | Path | What it is |
