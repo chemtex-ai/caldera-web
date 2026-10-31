@@ -1,0 +1,1568 @@
+[
+ {
+  "name": "Aafter 9 Restaurant cum Bar",
+  "raw": "Aafter 9 Restaurant cum Bar",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Amit Das",
+  "raw": "Amit Das FL OFF Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Blossom",
+  "raw": "Blossom F L Off Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Calcutta Greens",
+  "raw": "Calcutta Greens FL Off Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Chilis Grill & BAR",
+  "raw": "CHILIS GRILL & BAR",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Classic",
+  "raw": "Classic FL Off Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Club Urbana",
+  "raw": "CLUB URBANA",
+  "area": "Alipore",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Golden Empire",
+  "raw": "Golden Empire",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Golf Green Market",
+  "raw": "Golf Green Market CS Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Ice Cube",
+  "raw": "Ice Cube",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Illussion",
+  "raw": "Illussion",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "JW Marriott Kolkata",
+  "raw": "JW MARRIOTT KOLKATA",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Jadavpur",
+  "raw": "Jadavpur F.L Off Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Joynagar",
+  "raw": "Joynagar FL Off shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "K.M.C. Ward No. 96 C.S. Shop",
+  "raw": "K.M.C. Ward No. 96 C.S. Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Kashinath Bhattacharjee",
+  "raw": "Kashinath Bhattacharjee FL Off shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Paimana",
+  "raw": "Paimana FL On Shop",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Rehans",
+  "raw": "Rehans FL Off Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Rococo",
+  "raw": "ROCOCO",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Sparkling Stores",
+  "raw": "SPARKLING STORES",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "M/s. Spencers Retail Ltd.",
+  "area": "Alipore",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail , Vishnu Regency",
+  "raw": "Spencers Retail Limited, Vishnu Regency",
+  "area": "Alipore",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail South City Mall",
+  "raw": "Spencers Retail South City Mall",
+  "area": "Alipore",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers, Upohar Town Center",
+  "raw": "SPENCERS, UPOHAR TOWN CENTER",
+  "area": "Alipore",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Szafran",
+  "raw": "SZAFRAN",
+  "area": "Alipore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Tapan Sen C.S Off/",
+  "raw": "Tapan Sen C.S Off/On Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The Everest Stores",
+  "raw": "The Everest Stores",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The Tollygunge Club",
+  "raw": "The Tollygunge Club",
+  "area": "Alipore",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Ullash",
+  "raw": "Ullash FL Off Shop",
+  "area": "Alipore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Beezpur",
+  "raw": "Beezpur FL Off Shop",
+  "area": "Barrackpore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Blue Star, Restaurant-cum-Bar",
+  "raw": "Blue Star, Restaurant-cum-Bar",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Crematorium Street Contry Spirit Shop",
+  "raw": "Crematorium Street Contry Spirit Shop",
+  "area": "Barrackpore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Dinners Bar cum Restaurant",
+  "raw": "Dinners Bar Cum Restaurant",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Gorabazar",
+  "raw": "Gorabazar FL OFF Shop",
+  "area": "Barrackpore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Hornbill Restaurant cum BAR",
+  "raw": "HORNBILL RESTAURANT CUM BAR",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Maharaja Restaurant-cum-bar",
+  "raw": "MAHARAJA RESTAURANT-CUM-BAR",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Moonlit",
+  "raw": "Moonlit F.L On shop",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Oasis 69 Restaurant",
+  "raw": "Oasis 69 Restaurant",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "P.S.D",
+  "raw": "P.S.D. FL ON Shop",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "SKS Restaurant",
+  "raw": "SKS RESTAURANT",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Sheraton Restaurant cum Bar",
+  "raw": "Sheraton Restaurant Cum Bar",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Sodepur",
+  "raw": "Sodepur FL OFF shop",
+  "area": "Barrackpore",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Tanisha Bar-cum-Restaurant",
+  "raw": "Tanisha Bar-cum-Restaurant",
+  "area": "Barrackpore",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Babumashai Restaurant cum Bar",
+  "raw": "Babumashai Restaurant cum Bar",
+  "area": "Baruipur",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Dumurdaha Nityanandapore",
+  "raw": "Dumurdaha Nityanandapore CS Shop",
+  "area": "Baruipur",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "LMS Satyaranarayan Resorts",
+  "raw": "LMS SATYARANARAYAN RESORTS PVT. LTD.",
+  "area": "Baruipur",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Lunamo",
+  "raw": "LUNAMO",
+  "area": "Baruipur",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Rajpur",
+  "raw": "RAJPUR FL Off SHOP",
+  "area": "Baruipur",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The Belief Restaurant",
+  "raw": "THE BELIEF RESTAURANT",
+  "area": "Baruipur",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Tulip Restaurant-cum-bar",
+  "raw": "TULIP RESTAURANT-CUM-BAR",
+  "area": "Baruipur",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Preach",
+  "raw": "PREACH",
+  "area": "Central Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Chinese Restaurant cum Bar",
+  "raw": "Chinese Restaurant cum Bar",
+  "area": "Diamond Harbour",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Nungi",
+  "raw": "Nungi FL Off Shop",
+  "area": "Diamond Harbour",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers, Maheshtala",
+  "raw": "SPENCERS, MAHESHTALA",
+  "area": "Diamond Harbour",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Ichapur",
+  "raw": "Ichapur CS Shop",
+  "area": "Howrah",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail , Aurobindo Mall",
+  "raw": "SPENCERS RETAIL LIMITED, AUROBINDO MALL",
+  "area": "Howrah",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers, RD Mall",
+  "raw": "SPENCERS, RD MALL",
+  "area": "Howrah",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Anandamoyeetala",
+  "raw": "Anandamoyeetala F.L. Off Shop",
+  "area": "Nadia",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Surya",
+  "raw": "SURYA F.L. ON SHOP",
+  "area": "North 24-Parganas",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Broadway Hotel",
+  "raw": "Broadway Hotel",
+  "area": "North Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Castle Wines",
+  "raw": "CASTLE WINES",
+  "area": "North Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Infinity Wine",
+  "raw": "INFINITY WINE",
+  "area": "North Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Manor Floatel",
+  "raw": "Manor Floatel Ltd",
+  "area": "North Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "New Kolkata Bar",
+  "raw": "New Kolkata Bar",
+  "area": "North Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "R.D. & Sons",
+  "raw": "R.D. & Sons Pvt. Ltd.",
+  "area": "North Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LTD",
+  "area": "North Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The Calcutta Swimming Club",
+  "raw": "The Calcutta Swimming Club",
+  "area": "North Kolkata",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "The Power FL Off",
+  "raw": "The Power FL off",
+  "area": "North Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Ultdanga Stores",
+  "raw": "Ultdanga Stores",
+  "area": "North Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "AJ Café & Lounge (Mood Box)",
+  "raw": "AJ Café & Lounge (Mood Box)",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Abcos Food Plaza",
+  "raw": "ABCOS Food Plaza",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Ambrosia",
+  "raw": "Ambrosia",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Beans N Barrels",
+  "raw": "BEANS N BARRELS",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Bistro-y",
+  "raw": "BISTRO-Y",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Blaze Restaurant",
+  "raw": "BLAZE RESTAURANT",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "California Restaurant cum BAR",
+  "raw": "CALIFORNIA RESTAURANT CUM BAR",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Canteen Pub & Grub",
+  "raw": "Canteen Pub & Grub",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Chai Break",
+  "raw": "Chai Break",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Club DE Golf",
+  "raw": "CLUB DE GOLF",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Fenicia Club",
+  "raw": "FENICIA CLUB",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Five Mad Men",
+  "raw": "Five Mad Men",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Glook",
+  "raw": "GLOOK",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Golden City",
+  "raw": "Golden City",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Harishchandrapur",
+  "raw": "Harishchandrapur FL OFF Shop",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Holiday Inn Express-Airport",
+  "raw": "Holiday Inn Express-Airport",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Ibis Kolkata",
+  "raw": "IBIS KOLKATA",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Jaisalmer",
+  "raw": "JAISALMER",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "K Local",
+  "raw": "K LOCAL",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Kommoners",
+  "raw": "Kommoners",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "More",
+  "raw": "MORE",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "New Barrackpore-Madhyamgram",
+  "raw": "New Barrackpore-Madhyamgram CS Shop",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "New Town",
+  "raw": "New Town FL ON Shop",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Novotel-kolkata Hotel & Residences",
+  "raw": "NOVOTEL-KOLKATA HOTEL & RESIDENCES",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "O2-Oxygen",
+  "raw": "O2-Oxygen",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Opium BAR cum Restaurant",
+  "raw": "OPIUM BAR CUM RESTAURANT",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Patharghata GP",
+  "raw": "Patharghata GP CS Shop",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Patipukur",
+  "raw": "Patipukur CS Shop",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Rajarhat",
+  "raw": "Rajarhat CS Shop",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Rajarhat Gopalpur",
+  "raw": "Rajarhat Gopalpur CS Shop",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Salt Lake Wine",
+  "raw": "SALT LAKE WINE FL OFF SHOP",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Silver Sands",
+  "raw": "Silver Sands",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Laketown Super",
+  "raw": "Spencers Laketown Super",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail . [Patharghata]",
+  "raw": "Spencers Retail Ltd. [Patharghata]",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The BAR of the Westin Kolkata Rajarhat",
+  "raw": "THE BAR of The Westin Kolkata Rajarhat",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "The Bongz Restaurant & Bar",
+  "raw": "The Bongz Restaurant & Bar",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The Cult",
+  "raw": "The Cult",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "The Spirits",
+  "raw": "THE SPIRITS",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Traffic Gastropub",
+  "raw": "TRAFFIC GASTROPUB",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "UNO Pizzeria & Grill",
+  "raw": "UNO PIZZERIA & GRILL",
+  "area": "Salt Lake & Bidhannagar",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Alipore Stores",
+  "raw": "M/s Alipore Stores",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Apeejay Surrendra Park Hotels",
+  "raw": "APEEJAY SURRENDRA PARK HOTELS LTD",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Ashok Dutta",
+  "raw": "Ashok Dutta FL Off shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Ballygunge Stores",
+  "raw": "BALLYGUNGE STORES",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Bhowanipore New Palace Club",
+  "raw": "Bhowanipore New Palace Club",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Bistro by the Park",
+  "raw": "Bistro by the Park",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Calcutta Club",
+  "raw": "Calcutta Club",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Calcutta Rowing Club",
+  "raw": "CALCUTTA ROWING CLUB",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Cheers Wine",
+  "raw": "CHEERS WINE PVT LTD.",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Chilis",
+  "raw": "CHILIS",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Chilis",
+  "raw": "CHILIS",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Chowringhee Wine Stores",
+  "raw": "Chowringhee Wine Stores",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Club Skinny MOS Jazz Association",
+  "raw": "CLUB SKINNY MOS JAZZ ASSOCIATION",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Dalhousie Institute",
+  "raw": "Dalhousie Institute",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Dasguptas",
+  "raw": "DASGUPTAS Fl Off Shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Echoes Kolkata",
+  "raw": "ECHOES KOLKATA",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Forum Mall Management Services",
+  "raw": "M/s Forum Mall Management Services Pvt. Ltd",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Glenburn Penthouse",
+  "raw": "GLENBURN PENTHOUSE",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Golden Harvest and China Valley",
+  "raw": "GOLDEN HARVEST AND CHINA VALLEY",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Green Palace",
+  "raw": "GREEN PALACE",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "High Spirit Barons",
+  "raw": "M/s High Spirit Barons LLP",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Hola",
+  "raw": "HOLA",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Irish House",
+  "raw": "M/s Irish House",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Kanchantala Country Spirit Shop",
+  "raw": "Kanchantala Country Spirit Shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Lytton Hotel",
+  "raw": "Lytton Hotel",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Ma Kamakshya Marketing Agency",
+  "raw": "Ma Kamakshya Marketing Agency Pvt Ltd FL Off Shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Maharaja",
+  "raw": "Maharaja FL Off Shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Mallika Ghosh",
+  "raw": "Mallika Ghosh FL Off Shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Natures Basket",
+  "raw": "Natures Basket",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Natures Basket",
+  "raw": "Natures Basket",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Natures Basket, Spencers Park Street",
+  "raw": "Natures Basket, Spencers Park Street",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Oasis Restaurant",
+  "raw": "OASIS RESTAURANT",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Ordnance Club",
+  "raw": "Ordnance Club",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Peter Cat Restaurant",
+  "raw": "Peter Cat Restaurant",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Princeton Club",
+  "raw": "Princeton Club",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Publik Restro Pub",
+  "raw": "Publik Restro Pub",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "RED Kitchen & Lounge Club",
+  "raw": "M/S- RED KITCHEN & LOUNGE CLUB",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Regent Stores",
+  "raw": "REGENT STORES",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Relax Beer Bar",
+  "raw": "Relax Beer Bar",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Royal Calcutta Turf Club",
+  "raw": "Royal Calcutta Turf Club",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "S-Cube Games & Hospitality",
+  "raw": "S-Cube Games & Hospitality Pvt. Ltd",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Samar",
+  "raw": "Samar FL Off Shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Solace",
+  "raw": "Solace Fl Off Shop",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "South END Stores",
+  "raw": "SOUTH END STORES",
+  "area": "South Kolkata",
+  "type": "Wine Shop",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers",
+  "raw": "SPENCERS",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers",
+  "raw": "SPENCERS",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers",
+  "raw": "SPENCERS",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers",
+  "raw": "SPENCERS",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "M/S SPENCERS RETAIL LTD",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail",
+  "raw": "SPENCERS RETAIL LIMITED",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Spencers Retail , Gariahat Mall",
+  "raw": "SPENCERS RETAIL LIMITED, GARIAHAT MALL",
+  "area": "South Kolkata",
+  "type": "Supermarket",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "Steakalicous Restaurantuer",
+  "raw": "STEAKALICOUS RESTAURANTUER",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "TGI Fridays",
+  "raw": "TGI FRIDAYS",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "Tall Tales (unit of Crystal Ball Events)",
+  "raw": "TALL TALES (unit of CRYSTAL BALL EVENTS)",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The Bikers Cafe",
+  "raw": "THE BIKERS CAFE PVT.LTD.",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ },
+ {
+  "name": "The Grid Restaurant-cum- Bar",
+  "raw": "THE GRID Restaurant-cum- Bar",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "The Lake Club",
+  "raw": "THE LAKE CLUB LTD.",
+  "area": "South Kolkata",
+  "type": "Club",
+  "tap": false,
+  "pint": true,
+  "review": []
+ },
+ {
+  "name": "WOW China",
+  "raw": "WOW CHINA",
+  "area": "South Kolkata",
+  "type": "Bar & Restaurant",
+  "tap": true,
+  "pint": false,
+  "review": []
+ }
+]

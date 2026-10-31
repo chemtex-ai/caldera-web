@@ -1,0 +1,14 @@
+# generated working tree for the build scripts
+_work/
+
+# NEVER commit: internal sales extracts carry per-outlet volumes,
+# excise licence numbers and last-sale dates.
+*.xlsx
+*.xls
+outlets_review.json
+
+__pycache__/
+*.pyc
+.DS_Store
+.netlify/
+node_modules/

@@ -1,0 +1,37 @@
+# ---- one canonical host: send the netlify.app copy to the domain ----
+http://caldera-beer.netlify.app/*   https://caldera.beer/:splat   301!
+https://caldera-beer.netlify.app/*  https://caldera.beer/:splat   301!
+
+# ---- the review URL now lives at the root ----
+/white/*           /:splat           301!
+/white             /                 301!
+
+# ---- legacy WordPress pages -> new site ----
+/find-us/*         /find.html        301!
+/find-us           /find.html        301!
+/contact-us/*      /contact.html     301!
+/contact-us        /contact.html     301!
+/apply/*           /contact.html     301!
+/apply             /contact.html     301!
+/home              /                 301!
+
+# ---- clean URLs ----
+/ontap            /ontap.html       301!
+/yellow           /yellow.html      301!
+/blue             /blue.html        301!
+/strong           /strong.html      301!
+/about            /about.html       301!
+/faq              /faq.html         301!
+/find             /find.html        301!
+/blog             /blog.html        301!
+/contact          /contact.html     301!
+/privacy          /privacy.html     301!
+
+# ---- retired WordPress surface: gone, not moved ----
+/wp-admin/*        /404.html         410
+/wp-content/*      /404.html         410
+/wp-includes/*     /404.html         410
+/wp-json/*         /404.html         410
+/xmlrpc.php        /404.html         410
+/feed              /404.html         410
+/comments/feed     /404.html         410
