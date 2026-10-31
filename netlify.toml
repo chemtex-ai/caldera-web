@@ -25,9 +25,23 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
+# Security headers on EVERY document, not just literal *.html paths — pages are
+# served at extensionless URLs (/find, /pubcrawl), which "/*.html" never matched.
 [[headers]]
-  for = "/*.html"
+  for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "geolocation=(), camera=(), microphone=(), payment=(), usb=(), magnetometer=(), accelerometer=(), gyroscope=(), interest-cohort=()"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Resource-Policy = "same-site"
+    # Whitelist of what may load or run. Anything injected into the HTML that is
+    # not from these origins simply does not execute.
+    #   script-src  : self + cdnjs (GSAP, pinned with SRI). No 'unsafe-inline'.
+    #   style-src   : self + Google Fonts stylesheet.
+    #   style-src-attr: the markup uses style="" attributes for per-beer accent
+    #                   colours; scoped here so inline *scripts* stay blocked.
+    #   form-action : self only, so an injected form cannot post elsewhere.
+    #   frame-ancestors / object-src: no framing, no plugins.
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests"
