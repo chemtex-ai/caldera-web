@@ -97,7 +97,7 @@ FOOTER_W = (_F
     .replace('<a href="index.html#beers">Our Beers</a>','<a href="index.html#beers">Caldera On Pint</a><a href="ontap.html">Caldera On Tap</a>'))
 SCRIPT_W = '<script src="assets/caldera-white.js"></script>'
 
-PAGE_SLUGS = ["index","ontap","yellow","blue","strong","about","faq","find","blog","contact","privacy"]
+PAGE_SLUGS = ["index","ontap","yellow","blue","strong","about","faq","find","blog","contact","privacy","pubcrawl"]
 
 def pretty(slug):
     """find.html -> /find ; index.html -> /"""

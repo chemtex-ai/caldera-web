@@ -27,6 +27,7 @@ https://caldera-beer.netlify.app/*  https://caldera.beer/:splat   301!
 /blog.html        /blog             301!
 /contact.html     /contact          301!
 /privacy.html     /privacy          301!
+/pubcrawl.html    /pubcrawl         301!
 
 # ---- retired WordPress surface: gone, not moved ----
 /wp-admin/*        /404.html         410

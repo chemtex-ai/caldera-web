@@ -7,10 +7,12 @@ SITE = bw.SITE_URL
 TODAY = datetime.date.today().isoformat()
 
 PAGES = ["index.html","ontap.html","yellow.html","blue.html","strong.html",
-         "about.html","faq.html","find.html","blog.html","contact.html","privacy.html"]
+         "about.html","faq.html","find.html","blog.html","contact.html","privacy.html",
+         "pubcrawl.html"]
 PRIORITY = {"index.html":"1.0","ontap.html":"0.9","yellow.html":"0.9","blue.html":"0.9",
             "strong.html":"0.9","find.html":"0.8","about.html":"0.7","faq.html":"0.6",
-            "contact.html":"0.6","blog.html":"0.5","privacy.html":"0.2"}
+            "contact.html":"0.6","blog.html":"0.5","privacy.html":"0.2",
+            "pubcrawl.html":"0.8"}
 
 # ---------- sitemap ----------
 urls = "\n".join(

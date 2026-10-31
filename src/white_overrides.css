@@ -717,3 +717,62 @@ h1,h2,h3,h4,h5,.hero-big,.hero-sub2,.pshow-name,.bhero-name,.rangetitle,.quote,
   .ctab .hero-ctas .btn{flex:1 1 auto;justify-content:center}
 }
 .onote{max-width:74ch;text-wrap:pretty}
+/* ================= THE PUB CRAWL ================= */
+/* badge-led, single centred column at every width */
+.pc-hero{background:#282722;color:#F2EDE1;text-align:center;
+  /* clear the fixed nav, same allowance as .chero */
+  padding:calc(env(safe-area-inset-top,0px) + 126px) 0 clamp(54px,9vh,104px)}
+.pc-hero-inner{display:flex;flex-direction:column;align-items:center}
+.pc-badge{display:block;width:clamp(186px,30vw,304px);height:auto;border-radius:50%;
+  margin:0 0 clamp(26px,4vh,40px)}
+.pc-title{font-family:var(--sans);font-weight:800;font-size:clamp(2.3rem,6vw,4.1rem);
+  line-height:1.04;margin:0 0 16px;color:#F6EFE0;text-wrap:balance}
+.pc-lede{font-size:clamp(1rem,1.6vw,1.15rem);line-height:1.62;color:#CFC5B2;
+  max-width:40ch;margin:0 auto 30px;text-wrap:pretty}
+.pc-jump{display:inline-flex}
+.pc-note{font-size:.84rem;color:#9a9286;margin:16px 0 0;max-width:42ch;text-wrap:pretty}
+
+.pc-how{background:#fff;padding:clamp(46px,7vh,86px) 0}
+.pc-h2{font-family:var(--sans);font-weight:800;font-size:clamp(1.6rem,3.2vw,2.3rem);
+  margin:0;text-wrap:balance}
+.pc-h2 em{color:var(--gold);font-style:normal}
+.pc-steps{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:22px;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.pc-steps li{border-top:2px solid var(--amber);padding-top:17px}
+.pc-num{font-family:var(--sans);font-weight:800;font-size:.8rem;letter-spacing:.14em;color:var(--gold)}
+.pc-steps h3{font-family:var(--sans);font-weight:700;font-size:1.05rem;margin:7px 0 6px}
+.pc-steps p{margin:0;color:#6d6558;font-size:.94rem;line-height:1.6;text-wrap:pretty}
+
+.pc-form-sec{background:#F7F5F0;padding:clamp(46px,7vh,86px) 0;scroll-margin-top:88px}
+.pc-form-wrap{max-width:600px;margin-inline:auto}
+.pc-sub{color:#6d6558;margin:0 0 26px}
+.pcform{display:flex;flex-direction:column;gap:18px;background:#fff;border:1px solid var(--line);
+  border-radius:18px;padding:clamp(22px,3.4vw,34px)}
+.pc-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.pc-field{display:flex;flex-direction:column;gap:7px}
+.pc-field label{font-family:var(--sans);font-weight:700;font-size:.84rem;letter-spacing:.04em;color:var(--txt)}
+.pc-field input{font-family:var(--sans);font-size:1rem;color:var(--txt);padding:13px 15px;
+  border:1px solid var(--line);border-radius:11px;background:#fff;outline:0;width:100%}
+.pc-field input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(169,121,10,.13)}
+.pc-field input:user-invalid{border-color:#B3261E;box-shadow:0 0 0 3px rgba(179,38,30,.1)}
+.pc-field small{font-size:.78rem;color:#8a8175}
+.pc-check{display:flex;align-items:flex-start;gap:11px;font-size:.95rem;color:var(--txt);
+  cursor:pointer;line-height:1.5}
+.pc-check input{width:19px;height:19px;margin:1px 0 0;accent-color:var(--gold);flex:0 0 auto}
+.pc-consent{font-size:.8rem;color:#8a8175;margin:0;line-height:1.55;text-wrap:pretty}
+.pc-consent a{color:var(--gold);text-decoration:underline}
+.pc-submit{align-self:flex-start;margin-top:4px}
+.pc-submit:disabled{opacity:.6;cursor:default}
+.pc-sent{display:none}
+.pcform.sent .pc-field,.pcform.sent .pc-check,.pcform.sent .pc-consent,.pcform.sent .pc-submit{display:none}
+.pcform.sent .pc-sent{display:block;text-align:center;padding:12px 4px}
+.pc-sent h3{font-family:var(--sans);font-weight:800;font-size:1.35rem;margin:0 0 10px;color:var(--gold)}
+.pc-sent p{color:#6d6558;margin:0;line-height:1.62;text-wrap:pretty}
+.pc-legal{font-size:.76rem;color:#8a8175;margin:22px 0 0;line-height:1.55;text-align:center;text-wrap:pretty}
+
+@media(max-width:760px){
+  .pc-hero{padding:calc(env(safe-area-inset-top,0px) + 104px) 0 clamp(44px,7vh,72px)}
+  .pc-badge{width:min(210px,54vw);margin-bottom:24px}
+  .pc-submit{align-self:stretch;justify-content:center}
+  .pc-legal{text-align:left}
+}
