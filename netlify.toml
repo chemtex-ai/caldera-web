@@ -5,9 +5,16 @@
   publish = "public"
   command = ""
 
-# Stylesheets and scripts keep stable filenames and are replaced in place,
-# so they must revalidate. A content hash on the query string busts the cache
-# on change; the ETag makes the revalidation a cheap 304 the rest of the time.
+# Media caches for a day, then revalidates. Not "immutable": images and video
+# do get replaced in place here (a re-shot bottle, a re-encoded clip).
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+# Stylesheets and scripts keep stable filenames, so they must always revalidate.
+# These come after the catch-all above: later matching rules win in Netlify.
+# References also carry ?v=<content hash>, which busts the cache on change.
 [[headers]]
   for = "/assets/*.css"
   [headers.values]
@@ -17,13 +24,6 @@
   for = "/assets/*.js"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
-
-# Media is also replaced in place occasionally (a re-shot bottle, a re-encoded
-# video), so no "immutable" here either — a day, then revalidate.
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=86400, must-revalidate"
 
 [[headers]]
   for = "/*.html"
