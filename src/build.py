@@ -54,7 +54,7 @@ FOOTER = '''<footer><div class="wrap maxw">
     <div class="foot-col"><h5>The Beers</h5><a href="yellow.html">Caldera Yellow</a><a href="blue.html">Caldera Blue</a><a href="strong.html">Caldera Strong</a><a href="index.html#beers">Caldera Hefeweizen</a></div>
     <div class="foot-col"><h5>Get in Touch</h5><p>Karnani FnB Specialities LLP</p><p style="color:var(--txt-faint);font-size:.82rem">Haute Street Corporate Park,<br>86A Topsia Road (S), Kolkata 700046</p><a href="tel:18001233415">1800 123 3415</a><a href="mailto:hello@caldera.beer">hello@caldera.beer</a><p style="color:var(--txt-faint);font-size:.78rem">FSSAI Lic. 12819019001451</p></div>
   </div>
-  <div class="statutory"><span class="s">Consumption of alcohol is injurious to health</span><span class="s">Don't drink &amp; drive</span><span class="s">Not for sale to persons below 21 years</span></div>
+  <div class="statutory"><span class="s">Consumption of alcohol is injurious to health</span><span class="s">Don't drink &amp; drive</span><span class="s">Not for sale to persons below 21 years</span><span class="s">For sale in West Bengal only</span><span class="s">Produce of India</span></div>
   <div class="foot-legal"><span>© 2026 Caldera. A unit of Karnani FnB Specialities LLP. Please drink responsibly.</span><span><a href="privacy.html">Privacy Policy</a> · Calcutta's Finest Craft</span></div>
 </div></footer>'''
 
