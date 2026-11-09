@@ -9,6 +9,7 @@ TODAY = datetime.date.today().isoformat()
 PAGES = ["index.html","ontap.html","yellow.html","blue.html","strong.html",
          "about.html","faq.html","find.html","blog.html","contact.html","privacy.html",
          "pubcrawl.html"]
+ARTICLES = ["blog/the-art-of-the-adda.html","blog/why-your-witbier-is-cloudy.html","blog/lager-vs-ale.html"]
 PRIORITY = {"index.html":"1.0","ontap.html":"0.9","yellow.html":"0.9","blue.html":"0.9",
             "strong.html":"0.9","find.html":"0.8","about.html":"0.7","faq.html":"0.6",
             "contact.html":"0.6","blog.html":"0.5","privacy.html":"0.2",
@@ -19,6 +20,9 @@ urls = "\n".join(
   f'  <url>\n    <loc>{bw.canon(p)}</loc>\n    <lastmod>{TODAY}</lastmod>\n'
   f'    <changefreq>{"weekly" if p in ("index.html","find.html","blog.html") else "monthly"}</changefreq>\n'
   f'    <priority>{PRIORITY[p]}</priority>\n  </url>' for p in PAGES)
+urls += "\n" + "\n".join(
+    f'  <url>\n    <loc>{SITE}/{a[:-5]}</loc>\n    <lastmod>{TODAY}</lastmod>\n'
+    f'    <changefreq>yearly</changefreq>\n    <priority>0.7</priority>\n  </url>' for a in ARTICLES)
 (W/"sitemap.xml").write_text(
   '<?xml version="1.0" encoding="UTF-8"?>\n'
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls+'\n</urlset>\n', encoding="utf-8")

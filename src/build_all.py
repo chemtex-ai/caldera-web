@@ -12,6 +12,7 @@ Usage:  CALDERA_SITE=../_work/site python3 build_all.py
 import golive          # noqa: F401  -- pages + 404, robots.txt, sitemap.xml, _redirects
 import build_find      # noqa: F401  -- replaces find.html with the outlet directory
 import build_pubcrawl  # noqa: F401  -- adds pubcrawl.html
+import build_journal   # noqa: F401  -- Cal Journal articles + index links
 import seo             # noqa: F401  -- titles, descriptions, JSON-LD, llms.txt  (must be LAST)
 
 print("build_all: done")
