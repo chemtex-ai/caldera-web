@@ -65,9 +65,19 @@ https://caldera-beer.netlify.app/*  https://caldera.beer/:splat   301!
 /wp-content/*      /404.html         410
 /wp-includes/*     /404.html         410
 /wp-json/*         /404.html         410
+/wp-login.php      /404.html         410
+/wp-cron.php       /404.html         410
 /xmlrpc.php        /404.html         410
 /feed              /404.html         410
 /comments/feed     /404.html         410
+
+# WordPress brute-force probes hunt xmlrpc.php down every path they can guess.
+# ~11,800 hits in the last 7 days. Nothing here to attack, but 410 says gone for
+# good so the better-behaved crawlers stop asking.
+/*/xmlrpc.php      /404.html         410
+/*/wp-login.php    /404.html         410
+/wp/*              /404.html         410
+/wordpress/*       /404.html         410
 """, encoding="utf-8")
 
 # ---------- 404 ----------
@@ -94,4 +104,10 @@ html = html.replace('<meta name="robots" content="index,follow,max-image-preview
 html = html.replace(f'<link rel="canonical" href="{SITE}/404.html">\n', '')
 (W/"404.html").write_text(html, encoding="utf-8")
 
-print("go-live files written: sitemap.xml, robots.txt, _redirects, 404.html")
+# ---- IndexNow: lets Bing, Yandex and DuckDuckGo know the moment a page changes.
+# Bing's index is what ChatGPT and Copilot search against, so this matters for AEO
+# as much as for search. The key file must stay at the site root.
+INDEXNOW_KEY = "fdb85ba8a97210ef6e938e858b867446"
+(W/f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+
+print("go-live files written: sitemap.xml, robots.txt, _redirects, 404.html, indexnow key")

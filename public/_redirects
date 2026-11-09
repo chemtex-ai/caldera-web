@@ -34,6 +34,16 @@ https://caldera-beer.netlify.app/*  https://caldera.beer/:splat   301!
 /wp-content/*      /404.html         410
 /wp-includes/*     /404.html         410
 /wp-json/*         /404.html         410
+/wp-login.php      /404.html         410
+/wp-cron.php       /404.html         410
 /xmlrpc.php        /404.html         410
 /feed              /404.html         410
 /comments/feed     /404.html         410
+
+# WordPress brute-force probes hunt xmlrpc.php down every path they can guess.
+# ~11,800 hits in the last 7 days. Nothing here to attack, but 410 says gone for
+# good so the better-behaved crawlers stop asking.
+/*/xmlrpc.php      /404.html         410
+/*/wp-login.php    /404.html         410
+/wp/*              /404.html         410
+/wordpress/*       /404.html         410
