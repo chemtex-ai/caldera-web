@@ -3,6 +3,7 @@ import pathlib
 import os
 SITE = pathlib.Path(os.environ.get("CALDERA_SITE",
     pathlib.Path(__file__).resolve().parent.parent / "_work" / "site"))
+SITE.mkdir(parents=True, exist_ok=True)   # scratch tree; git-ignored
 
 HEADBITS = '''<title>{title}</title>
 <meta name="description" content="{desc}">

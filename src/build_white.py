@@ -8,8 +8,21 @@ HERE   = pathlib.Path(__file__).resolve().parent
 WHITE.mkdir(exist_ok=True)
 
 # ---- assets ----
-shutil.copytree(SITE/"assets", ASSETS, dirs_exist_ok=True)
-base = (SITE/"assets"/"caldera.css").read_text(encoding="utf-8")
+# Asset source: the dark-site build tree if it exists, otherwise the committed
+# public/assets. The second path is what makes a fresh clone buildable — the repo
+# carries the assets, so nothing depends on a scratch tree surviving.
+_src = SITE/"assets"
+if not _src.is_dir():
+    _src = pathlib.Path(__file__).resolve().parent.parent/"public"/"assets"
+if not _src.is_dir():
+    raise SystemExit(f"no asset source found: tried {SITE/'assets'} and {_src}")
+shutil.copytree(_src, ASSETS, dirs_exist_ok=True)
+# caldera.css is a hand-maintained source file, not a build output — it lives in
+# src/ so the repo is self-contained; the scratch tree is only a fallback.
+_css = pathlib.Path(__file__).resolve().parent/"caldera.css"
+if not _css.is_file():
+    _css = SITE/"assets"/"caldera.css"
+base = _css.read_text(encoding="utf-8")
 ov   = (HERE/"white_overrides.css").read_text(encoding="utf-8")
 (ASSETS/"caldera-white.css").write_text(base+"\n\n"+ov, encoding="utf-8")
 (ASSETS/"caldera-white.js").write_text((HERE/"caldera-white.js").read_text(encoding="utf-8"), encoding="utf-8")
