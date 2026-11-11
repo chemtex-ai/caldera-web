@@ -1289,3 +1289,24 @@ h1,h2,h3,h4,h5,.hero-big,.hero-sub2,.pshow-name,.bhero-name,.rangetitle,.quote,
   .jbody{font-size:1.02rem}
   .jhero img{aspect-ratio:4/3;border-radius:12px}
 }
+.oseg-ic{width:17px;height:17px;flex:0 0 auto;margin-right:8px;opacity:.75}
+.oseg-btn{display:inline-flex;align-items:center}
+.oseg-btn.is-on .oseg-ic{opacity:1;color:var(--gold)}
+.oname{font-weight:800;letter-spacing:.01em}
+.oblurb{font-family:var(--sans);font-size:.95rem;color:#5d564b;margin:0 0 6px;text-wrap:pretty}
+@media(max-width:760px){
+  .oseg-ic{width:15px;height:15px;margin-right:6px}
+  .oblurb{font-size:.9rem}
+}
+.obanner{display:flex;align-items:center;gap:13px;margin:0 0 20px;padding:14px 18px;
+  background:#FBF6E8;border:1px solid rgba(169,121,10,.2);border-left:3px solid var(--amber);border-radius:12px}
+.obanner[data-fmt="pint"]{background:#F7F5F0;border-color:var(--line);border-left-color:#C9BFA8}
+.oban-ic{display:flex;flex:0 0 auto;color:var(--gold)}
+.obanner[data-fmt="pint"] .oban-ic{color:#8a7a52}
+.oban-ic svg{width:22px;height:22px}
+.obanner p{margin:0;font-family:var(--sans);font-size:.95rem;font-weight:600;color:#4a443b;text-wrap:pretty}
+@media(max-width:760px){
+  .obanner{gap:11px;padding:12px 14px;margin-bottom:16px}
+  .oban-ic svg{width:19px;height:19px}
+  .obanner p{font-size:.88rem;font-weight:500}
+}

@@ -17,21 +17,26 @@ chips='<button class="achip is-on" data-area="">All areas</button>' + ''.join(
 
 BODY=f'''<section class="chero chero-tight"><div class="wrap maxw">
   <div class="eyebrow">Where to Find Caldera</div>
-  <h1>Find a Caldera <em>near you.</em></h1>
-  <p>Caldera is poured on tap and sold by the pint across Kolkata. Search by name, or narrow it down to your part of the city.</p>
+  <h1>Find <span class="oname">CALDERA</span> <em>near you.</em></h1>
+  <p>Search by name, or narrow it down to your part of the city.</p>
 </div></section>
 
 <section class="sec outlets"><div class="wrap maxw">
 
   <div class="ofilters">
     <div class="oseg" role="tablist" aria-label="Format">
-      <button class="oseg-btn is-on" data-fmt="tap"  role="tab" aria-selected="true">On Tap <i>{ntap}</i></button>
-      <button class="oseg-btn"       data-fmt="pint" role="tab" aria-selected="false">On Pint <i>{npint}</i></button>
+      <button class="oseg-btn is-on" data-fmt="tap"  role="tab" aria-selected="true"><svg class="oseg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4h6"/><path d="M12 4v4"/><path d="M4 8h11a2 2 0 0 1 2 2v2"/><path d="M17 15.5v4"/><path d="M4 8v3"/><circle cx="17" cy="13.6" r="1.6"/></svg>On Tap <i>{ntap}</i></button>
+      <button class="oseg-btn"       data-fmt="pint" role="tab" aria-selected="false"><svg class="oseg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4v3.2l1.3 2.3a5 5 0 0 1 .7 2.5V20a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V10a5 5 0 0 1 .7-2.5L10 5.2V2z"/><path d="M8 12h8"/></svg>On Pint <i>{npint}</i></button>
     </div>
     <div class="osearch">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
       <input type="search" id="oq" placeholder="Search a bar, club or store" aria-label="Search outlets" autocomplete="off">
     </div>
+  </div>
+
+  <div class="obanner" id="obanner">
+    <span class="oban-ic" id="obanIc"></span>
+    <p id="oblurb"></p>
   </div>
 
   <div class="achips" aria-label="Filter by area">{chips}</div>

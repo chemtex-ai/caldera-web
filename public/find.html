@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Rock+Salt&display=swap">
-<link rel="stylesheet" href="assets/caldera-white.css?v=195317d2">
+<link rel="stylesheet" href="assets/caldera-white.css?v=fe76b847">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link rel="canonical" href="https://caldera.beer/find">
@@ -68,21 +68,26 @@
 <main>
 <section class="chero chero-tight"><div class="wrap maxw">
   <div class="eyebrow">Where to Find Caldera</div>
-  <h1>Find a Caldera <em>near you.</em></h1>
-  <p>Caldera is poured on tap and sold by the pint across Kolkata. Search by name, or narrow it down to your part of the city.</p>
+  <h1>Find <span class="oname">CALDERA</span> <em>near you.</em></h1>
+  <p>Search by name, or narrow it down to your part of the city.</p>
 </div></section>
 
 <section class="sec outlets"><div class="wrap maxw">
 
   <div class="ofilters">
     <div class="oseg" role="tablist" aria-label="Format">
-      <button class="oseg-btn is-on" data-fmt="tap"  role="tab" aria-selected="true">On Tap <i>51</i></button>
-      <button class="oseg-btn"       data-fmt="pint" role="tab" aria-selected="false">On Pint <i>133</i></button>
+      <button class="oseg-btn is-on" data-fmt="tap"  role="tab" aria-selected="true"><svg class="oseg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4h6"/><path d="M12 4v4"/><path d="M4 8h11a2 2 0 0 1 2 2v2"/><path d="M17 15.5v4"/><path d="M4 8v3"/><circle cx="17" cy="13.6" r="1.6"/></svg>On Tap <i>51</i></button>
+      <button class="oseg-btn"       data-fmt="pint" role="tab" aria-selected="false"><svg class="oseg-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4v3.2l1.3 2.3a5 5 0 0 1 .7 2.5V20a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V10a5 5 0 0 1 .7-2.5L10 5.2V2z"/><path d="M8 12h8"/></svg>On Pint <i>133</i></button>
     </div>
     <div class="osearch">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
       <input type="search" id="oq" placeholder="Search a bar, club or store" aria-label="Search outlets" autocomplete="off">
     </div>
+  </div>
+
+  <div class="obanner" id="obanner">
+    <span class="oban-ic" id="obanIc"></span>
+    <p id="oblurb"></p>
   </div>
 
   <div class="achips" aria-label="Filter by area"><button class="achip is-on" data-area="">All areas</button><button class="achip" data-area="South Kolkata">South Kolkata</button><button class="achip" data-area="Salt Lake & Bidhannagar">Salt Lake & Bidhannagar</button><button class="achip" data-area="Alipore">Alipore</button><button class="achip" data-area="Barrackpore">Barrackpore</button><button class="achip" data-area="North Kolkata">North Kolkata</button><button class="achip" data-area="Baruipur">Baruipur</button><button class="achip" data-area="Diamond Harbour">Diamond Harbour</button><button class="achip" data-area="Howrah">Howrah</button><button class="achip" data-area="Central Kolkata">Central Kolkata</button><button class="achip" data-area="Nadia">Nadia</button><button class="achip" data-area="North 24-Parganas">North 24-Parganas</button></div>
@@ -125,6 +130,6 @@
   <div class="foot-legal"><span>© 2026 Karnani FnB Specialities&nbsp;LLP.</span><span><a href="/privacy">Privacy Policy</a> · Calcutta's Finest Craft</span></div>
 </div></footer>
 <script src="assets/caldera-white.js?v=c431602d"></script>
-<script src="assets/outlets.js?v=27d8e95d"></script>
+<script src="assets/outlets.js?v=fb32c23d"></script>
 </body>
 </html>
